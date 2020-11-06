@@ -11,7 +11,7 @@ apt-get install -y tree
 pip install --upgrade pip
 
 #pytorch
-conda install -c pytorch pytorch==1.5.0 torchvision cudatoolkit=10.2
+conda install -c pytorch pytorch==1.7.0 torchvision cudatoolkit=10.1
 
 #opencv
 conda install -c anaconda opencv
