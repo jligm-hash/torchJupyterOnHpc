@@ -1,6 +1,6 @@
 Bootstrap: docker
 
-From: continuumio/anaconda3:2019.03
+From: continuumio/anaconda3:2020.07
 
 %post
 export PATH=/opt/conda/bin:$PATH
@@ -8,13 +8,16 @@ export PATH=/opt/conda/bin:$PATH
 #update
 apt-get update
 apt-get install -y tree
+
+conda update conda 
+
 pip install --upgrade pip
 
 #pytorch
-conda install -c pytorch pytorch==1.7.0 torchvision cudatoolkit=10.1
+conda install pytorch==1.7.0 torchvision torchaudio cudatoolkit=10.1 -c pytorch
 
 #opencv
-conda install -c anaconda opencv
+#conda install -c anaconda opencv
 
 #scikit-learn
 conda install -c anaconda scikit-learn
@@ -23,5 +26,5 @@ conda install -c anaconda scikit-learn
 conda install -c simpleitk simpleitk
 
 #pillow
-conda install -c anaconda pillow 
+#conda install -c anaconda pillow 
 
