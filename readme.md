@@ -1,7 +1,9 @@
 
 [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/3673)
 
-# A Pytorch deep learning singularity container
+# Torch jupyter on hpc
+
+This repository is folked on ylugithub/pytorch_gpu_singularity. README on ylugithub/pytorch_gpu_singularity is following:
 
 ## Aim
 
