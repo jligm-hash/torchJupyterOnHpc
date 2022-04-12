@@ -1,7 +1,32 @@
 
-[![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/3673)
+<!-- [![https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg](https://www.singularity-hub.org/static/img/hosted-singularity--hub-%23e32929.svg)](https://singularity-hub.org/collections/3673) -->
 
 # Torch jupyter on hpc
+
+Deep learning jupyter on hpc. You can run the deep learning environment by hpc.
+
+## How to start the env
+
+This is based on singularity container. Make you have already loaded the singularity module or install the singularity module, then run the following codes to enable the container:
+
+```
+singularity shell --writable yourSif.simg
+```
+
+## How to run the jupterHpc
+
+Once you are in the env, it is the same way to start the jupyterHpc and enjoy your self. For jupyter lab/notebook on hpc, please refer to [jupyterHpc](https://github.com/jligm-hash/jupyterHpc). Here is an example:
+
+```
+sh runJupyterHpc.sh
+```
+
+## Other ways to run jupyter for you
+
+[Resources from EPFL](https://tube.switch.ch/videos/B6ZJYhSSrd)
+
+
+## Previous README
 
 This repository is folked on ylugithub/pytorch_gpu_singularity. README on ylugithub/pytorch_gpu_singularity is following:
 
