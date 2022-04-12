@@ -84,4 +84,4 @@ to exit the container.
 singularity exec --nv pytorch_gpu.simg python /path/to/<your_script.py>
 ```
 
-<\code>
+</code>
