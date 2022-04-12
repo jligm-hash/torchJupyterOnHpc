@@ -1,5 +1,5 @@
 VER=1.8.0
-IMAGE_NAME=./pytorch_gpu_${VER}.simg
+IMAGE_NAME=./torchJupyterOnHpc${VER}.sif
 
 #build
 # create the interactivate version

@@ -3,11 +3,22 @@
 
 # Torch jupyter on hpc
 
-Deep learning jupyter on hpc. You can run the deep learning environment by hpc.
+Deep learning jupyter on hpc. You can run the deep learning environment by jupyterHpc.
+
+<p align="center">
+  <img src="src/logoCollection.png" alt="torchJupyterHpc" width="600" >
+</p>
+
 
 ## How to start the env
 
 This is based on singularity container. Make you have already loaded the singularity module or install the singularity module, then run the following codes to enable the container:
+
+```
+singularity shell --writable torchJupyterOnHpc.sif
+```
+
+Or your self built sif files:
 
 ```
 singularity shell --writable yourSif.sif
@@ -15,8 +26,9 @@ singularity shell --writable yourSif.sif
 
 If you would like to build the sif by yourself, please refer to the following codes:
 
+
 ```
-sh build_and_test.sh
+sh build.sh
 ```
 
 ## How to run the jupterHpc

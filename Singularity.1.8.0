@@ -6,7 +6,8 @@ From: continuumio/anaconda3:2020.07
 export PATH=/opt/conda/bin:$PATH
 
 #update
-apt-get update
+#apt-get update
+apt-get update --allow-releaseinfo-change
 apt-get install -y tree
 
 conda update conda 
@@ -27,4 +28,7 @@ conda install -c simpleitk simpleitk
 
 #pillow
 #conda install -c anaconda pillow 
+
+# install numpy
+conda install -c conda-forge jupyterlab
 
