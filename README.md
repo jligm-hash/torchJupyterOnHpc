@@ -15,10 +15,10 @@ Deep learning jupyter on hpc. You can run the deep learning environment by jupyt
 This is based on singularity container. Make you have already loaded the singularity module or install the singularity module, then run the following codes to enable the container:
 
 ```
-singularity shell --writable torchJupyterOnHpc.sif
+singularity shell --writable torchJupyterOnHpc.sif # the sif is removed since it is too large
 ```
 
-Or your self built sif files:
+Or your self-built sif files:
 
 ```
 singularity shell --writable yourSif.sif
