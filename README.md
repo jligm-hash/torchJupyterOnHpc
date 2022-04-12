@@ -41,6 +41,8 @@ sh runJupyterHpc.sh
 
 ## Other ways to run jupyter for you
 
+[Install container](https://singularity-tutorial.github.io/01-installation/)
+
 [Resources from EPFL](https://tube.switch.ch/videos/B6ZJYhSSrd)
 
 
